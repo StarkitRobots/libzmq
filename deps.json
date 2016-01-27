@@ -1,5 +1,5 @@
 {
-    "name": "rhobandeps/zeromq",
+    "name": "rhobandeps/libzmq",
     "includes": "include",
     "libraries": "src/.libs",
     "build": [
