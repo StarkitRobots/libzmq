@@ -3,8 +3,6 @@
     "includes": "include",
     "libraries": "src/.libs",
     "build": [
-        "./autogen.sh",
-        "./configure",
-        "make"
+        "build.sh"
     ]
 }
