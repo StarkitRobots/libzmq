@@ -1,0 +1,10 @@
+{
+    "name": "rhobandeps/zeromq",
+    "includes": "include",
+    "libraries": "src/.libs",
+    "build": [
+        "./autogen.sh",
+        "./configure",
+        "make"
+    ]
+}
