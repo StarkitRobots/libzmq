@@ -3,6 +3,6 @@
     "includes": "include",
     "libraries": "src/.libs",
     "build": [
-        "build.sh"
+        "./build.sh"
     ]
 }
