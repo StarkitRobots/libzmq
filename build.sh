@@ -5,7 +5,7 @@ if [ ! -f "configure" ]; then
 fi
 
 if [ ! -f "Makefile" ]; then
-    ./configure
+    ./configure --without-libsodium
 fi
 
 make
