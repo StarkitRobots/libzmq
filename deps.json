@@ -4,5 +4,6 @@
     "libraries": "src/.libs",
     "build": [
         "./build.sh"
-    ]
+    ],
+    "links": "src/.libs/libzmq.a"
 }
