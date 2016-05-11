@@ -5,5 +5,5 @@
     "build": [
         "./build.sh"
     ],
-    "links": "src/.libs/libzmq.a"
+    "links": ["src/.libs/libzmq.so"]
 }
