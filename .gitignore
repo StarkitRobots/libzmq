@@ -1,4 +1,5 @@
 syntax: glob # for hg-git users
+packaging/redhat/zeromq.spec
 /Makefile
 builds/Makefile
 builds/msvc/Makefile
