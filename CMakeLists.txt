@@ -11,9 +11,8 @@ find_package(catkin REQUIRED
 # What is published by the 'serial package'
 catkin_package(
   INCLUDE_DIRS include
-  LIBRARIES libzmq
+  LIBRARIES zmq
 )
-
 
 list(INSERT CMAKE_MODULE_PATH 0 "${CMAKE_SOURCE_DIR}")
 
