@@ -3,6 +3,18 @@
 cmake_minimum_required(VERSION 2.8)
 project(ZeroMQ)
 
+# Find catkin macros and libraries
+find_package(catkin REQUIRED
+    cmake_modules
+)
+
+# What is published by the 'serial package'
+catkin_package(
+  INCLUDE_DIRS include
+  LIBRARIES libzmq
+)
+
+
 list(INSERT CMAKE_MODULE_PATH 0 "${CMAKE_SOURCE_DIR}")
 
 option(WITH_OPENPGM "Build with support for OpenPGM" OFF)
