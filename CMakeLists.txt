@@ -4,9 +4,7 @@ cmake_minimum_required(VERSION 2.8)
 project(ZeroMQ)
 
 # Find catkin macros and libraries
-find_package(catkin REQUIRED
-    cmake_modules
-)
+find_package(catkin REQUIRED)
 
 # What is published by the 'serial package'
 catkin_package(
