@@ -205,6 +205,9 @@ endif()
 
 zmq_check_cxx_flag_prepend("-Wno-long-long")
 zmq_check_cxx_flag_prepend("-Wno-uninitialized")
+zmq_check_cxx_flag_prepend("-Wno-unused-parameter")
+zmq_check_cxx_flag_prepend("-Wno-unused-but-set-variable")
+zmq_check_cxx_flag_prepend("-Wno-missing-field-initializers")
 
 option(LIBZMQ_PEDANTIC "" ON)
 option(LIBZMQ_WERROR "" OFF)
