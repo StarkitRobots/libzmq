@@ -12,6 +12,8 @@ catkin_package(
   LIBRARIES zmq
 )
 
+set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -Wall -Wextra")
+
 list(INSERT CMAKE_MODULE_PATH 0 "${CMAKE_SOURCE_DIR}")
 
 option(WITH_OPENPGM "Build with support for OpenPGM" OFF)
