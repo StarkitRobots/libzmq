@@ -1,5 +1,5 @@
 {
-    "name": "rhobandeps/libzmq",
+    "name": "StarkiRobots/libzmq",
     "includes": "include",
     "libraries": "src/.libs",
     "build": [
