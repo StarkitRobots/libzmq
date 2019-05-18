@@ -1,5 +1,5 @@
 {
-    "name": "StarkiRobots/libzmq",
+    "name": "StarkitRobots/libzmq",
     "includes": "include",
     "libraries": "src/.libs",
     "build": [
